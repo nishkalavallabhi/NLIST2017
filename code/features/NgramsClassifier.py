@@ -103,19 +103,3 @@ for vectorizer in vectorizers:
 print("wrote predictions out")
 
 
-'''
-#This is to do a Cross-Validation setup
-#Just doing 5 fold CV for now. But we should get results on Dev. set.
-logRegClassifier_withSW = LogisticRegression(C=0.1)
-scores = cross_val_score(logRegClassifier_withSW, train_data_features_withSW, train_labels, cv=5)
-predicted = cross_val_predict(logRegClassifier_withSW, train_data_features_withSW, train_labels, cv=5)
-
-#Printing some numbers:
-print("logRegClassifier - with stopwords - with cross validation")
-print("Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2))
-print("Overall accuracy {:.3g}%".format(metrics.accuracy_score(train_labels, predicted)*100))
-print(classification_report(train_labels, predicted))
-#print(confusion_matrix(train_labels, predicted, labels=class_names))
-#print("\n")
-
-'''
