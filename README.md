@@ -5,6 +5,7 @@ This repo contains the code for our experiments done as a part of the [Native La
 More details about our experiments can be read at: [Link to the paper]()
 
 Contact: 
-sowmya @ iastate.edu
 
-sagnik @ iastate.edu
+[sowmya @ iastate.edu](https://github.com/nishkalavallabhi)
+
+[sagnik @ iastate.edu](https://github.com/sagnikbanerjee15)
